@@ -5,7 +5,64 @@ import 'package:liquid_swipe/liquid_swipe.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+  static const TextStyle goldCoinGreyStyle = TextStyle(
+      color: Colors.grey,
+      fontSize: 20.0,
+      fontWeight: FontWeight.bold,
+      fontFamily: "Product Sans");
+
+  static const TextStyle greyStyle =
+      TextStyle(fontSize: 40.0, color: Colors.grey, fontFamily: "Product Sans");
+
+  static const TextStyle boldStyle = TextStyle(
+      fontSize: 40.0,
+      color: Colors.grey,
+      fontFamily: "Product Sans",
+      fontWeight: FontWeight.bold);
+
+  final pages = [
+    Container(
+      color: Colors.white,
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 20.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: <Widget>[
+                Text(
+                  "goldCoin",
+                  style: goldCoinGreyStyle,
+                ),
+                Text(
+                  "skip",
+                  style: goldCoinGreyStyle,
+                )
+              ],
+            ),
+          ),
+          Image.asset("assets/img/firstImage.png"),
+          Column(
+            children: <Widget>[
+              Text(
+                "Online",
+                style: greyStyle,
+              ),
+              Text(
+                "Gambling",
+                style: boldStyle,
+              )
+            ],
+          ),
+        ],
+      ),
+    ),
+    Container(),
+    Container(),
+  ];
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
