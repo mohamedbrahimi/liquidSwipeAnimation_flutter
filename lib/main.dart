@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       fontFamily: "Product Sans");
 
   static const TextStyle greyStyle =
-      TextStyle(fontSize: 40.0, color: Colors.grey, fontFamily: "Product Sans");
+  TextStyle(fontSize: 40.0, color: Colors.grey, fontFamily: "Product Sans");
 
   static const TextStyle boldStyle = TextStyle(
       fontSize: 40.0,
