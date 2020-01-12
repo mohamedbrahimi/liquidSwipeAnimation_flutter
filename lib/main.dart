@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
   TextStyle(fontSize: 40.0, color: Colors.grey, fontFamily: "Product Sans");
 
   static const TextStyle boldStyle = TextStyle(
-      fontSize: 40.0,
-      color: Colors.grey,
+      fontSize: 50.0,
+      color: Colors.black,
       fontFamily: "Product Sans",
       fontWeight: FontWeight.bold);
 
