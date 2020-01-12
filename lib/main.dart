@@ -96,7 +96,7 @@ class MyApp extends StatelessWidget {
               children: <Widget>[
                 Text(
                   "GoldCoin",
-                  style: goldCoinGreyStyle,
+                  style: goldCoinWhiteStyle,
                 ),
                 Text(
                   "Skip",
