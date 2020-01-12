@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Text(
-                  "goldCoin",
+                  "GoldCoin",
                   style: goldCoinGreyStyle,
                 ),
                 Text(
