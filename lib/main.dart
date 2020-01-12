@@ -10,7 +10,11 @@ class MyApp extends StatelessWidget {
       fontSize: 20.0,
       fontWeight: FontWeight.bold,
       fontFamily: "Product Sans");
-
+  static const TextStyle goldCoinWhiteStyle = TextStyle(
+      color: Colors.white,
+      fontSize: 20.0,
+      fontWeight: FontWeight.bold,
+      fontFamily: "Product Sans");
   static const TextStyle greyStyle =
   TextStyle(fontSize: 40.0, color: Colors.grey, fontFamily: "Product Sans");
 
