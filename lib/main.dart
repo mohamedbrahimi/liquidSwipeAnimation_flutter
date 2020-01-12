@@ -105,7 +105,7 @@ class MyApp extends StatelessWidget {
               ],
             ),
           ),
-          Image.asset("assets/img/firstImage.png"),
+          Image.asset("assets/img/secondImage.png"),
           Padding(
               padding: const EdgeInsets.symmetric(horizontal: 30.0),
               child: Column(
