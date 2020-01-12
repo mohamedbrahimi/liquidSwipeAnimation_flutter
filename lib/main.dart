@@ -19,6 +19,17 @@ class MyApp extends StatelessWidget {
       color: Colors.black,
       fontFamily: "Product Sans",
       fontWeight: FontWeight.bold);
+  static const TextStyle descriptionGreyStyle = TextStyle(
+      color: Colors.grey,
+      fontSize: 20.0,
+      fontFamily: "Product Sans"
+  );
+  static const TextStyle descriptionWhiteStyle = TextStyle(
+      color: Colors.white,
+      fontSize: 20.0,
+      fontFamily: "Product Sans"
+  );
+
 
   final pages = [
     Container(
