@@ -84,7 +84,7 @@ class MyApp extends StatelessWidget {
       ),
     ),
     Container(
-      color: Colors.white,
+      color: Color(0xff55006c),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.start,
