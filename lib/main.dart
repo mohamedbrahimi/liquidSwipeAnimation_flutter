@@ -107,27 +107,29 @@ class MyApp extends StatelessWidget {
           ),
           Image.asset("assets/img/secondImage.png"),
           Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 30.0),
-              child: Column(
-                children: <Widget>[
-                  Text(
-                    "Online",
-                    style: greyStyle,
-                  ),
-                  Text(
-                    "Gambling",
-                    style: boldStyle,
-                  ),
-                  SizedBox(
-                    height: 20.0,
-                  ),
-                  Text("Temporibus autem aut\n"
-                      "officiels debits aut rerun \n"
-                      "necessitatibus",
-                    style: descriptionGreyStyle,
-                  ),
-                ],
-              ),
+            padding: const EdgeInsets.symmetric(horizontal: 30.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Text(
+                  "Online",
+                  style: whiteStyle,
+                ),
+                Text(
+                  "Gambling",
+                  style: boldStyle,
+                ),
+                SizedBox(
+                  height: 20.0,
+                ),
+                Text(
+                  "Neet some text here\n"
+                  "put any text in the empty case \n"
+                  "any text or random string",
+                  style: descriptionWhiteStyle,
+                ),
+              ],
+            ),
           )
         ],
       ),
