@@ -48,7 +48,7 @@ class MyApp extends StatelessWidget {
                   style: goldCoinGreyStyle,
                 ),
                 Text(
-                  "skip",
+                  "Skip",
                   style: goldCoinGreyStyle,
                 )
               ],
