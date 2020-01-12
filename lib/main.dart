@@ -55,18 +55,29 @@ class MyApp extends StatelessWidget {
             ),
           ),
           Image.asset("assets/img/firstImage.png"),
-          Column(
-            children: <Widget>[
-              Text(
-                "Online",
-                style: greyStyle,
+          Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 30.0),
+              child: Column(
+                children: <Widget>[
+                  Text(
+                    "Online",
+                    style: greyStyle,
+                  ),
+                  Text(
+                    "Gambling",
+                    style: boldStyle,
+                  ),
+                  SizedBox(
+                    height: 20.0,
+                  ),
+                  Text("Temporibus autem aut\n"
+                      "officiels debits aut rerun \n"
+                      "necessitatibus",
+                    style: descriptionGreyStyle,
+                  ),
+                ],
               ),
-              Text(
-                "Gambling",
-                style: boldStyle,
-              )
-            ],
-          ),
+          )
         ],
       ),
     ),
