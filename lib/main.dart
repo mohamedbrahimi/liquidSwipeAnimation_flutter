@@ -34,12 +34,55 @@ class MyApp extends StatelessWidget {
   final pages = [
     Container(
       color: Colors.white,
-      fontSize: 20.0,
-      fontFamily: "Product Sans"
-  );
-
-
-  final pages = [
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 20.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: <Widget>[
+                Text(
+                  "GoldCoin",
+                  style: goldCoinGreyStyle,
+                ),
+                Text(
+                  "Skip",
+                  style: goldCoinGreyStyle,
+                )
+              ],
+            ),
+          ),
+          Image.asset("assets/img/firstImage.png"),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 30.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Text(
+                  "Online",
+                  style: greyStyle,
+                ),
+                Text(
+                  "Gambling",
+                  style: boldStyle,
+                ),
+                SizedBox(
+                  height: 20.0,
+                ),
+                Text(
+                  "Temporibus autem aut\n"
+                  "officiels debits aut rerun \n"
+                  "necessitatibus",
+                  style: descriptionGreyStyle,
+                ),
+              ],
+            ),
+          )
+        ],
+      ),
+    ),
     Container(
       color: Colors.white,
       child: Column(
